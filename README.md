@@ -14,12 +14,22 @@
 
 
 ### 已开发页面：
+### 听一听
+![tytjpg](./art/tyt.jpg)
 
 #### 朋友圈
 
-![pyq.jpg](./art/pyq.jpg) 
 
-![pyq2.jpg](./art/pyq2.jpg)
+<p align="center">
+  <img src="./art/pyq.jpg" width="48%"/>
+  <img src="./art/pyq2.jpg" width="48%"/>
+</p>
+
+### 二维码扫描
+<p align="center">
+  <img src="./art/scan.jpg" width="48%"/>
+  <img src="./art/scan2.jpg" width="48%"/>
+</p>
 
 #### 微信Tab
 ![demo1.jpg](art%2Fdemo1.jpg)
@@ -53,7 +63,7 @@
 2. 语音|视频页面（现已支持发送和播放语音消息） 
 3. 支持群聊头像 
 4. 支持图片，红包等聊天内容类型（现已支持图片类型） 
-5. 二维码扫描
+
 
 **由于近期有别的重要计划安排，本项目后续进度会放缓，有兴趣的朋友可以参与进来一起开发哈**
 

@@ -8,16 +8,18 @@ export struct PyqToolbar {
   build() {
     Stack() {
       Image(this.cover)
-        .width('100%')
-        .aspectRatio(2.3)
-        .objectFit(ImageFit.Cover)
+        .width('100%') // 设置图片宽度为100%，使其充满容器
+        // .height(300) // 设置图片高度为300px
+        .aspectRatio(1.4) // 设置图片的宽高比为2.3:1
+        .objectFit(ImageFit.Cover) // 设置图片的填充模式为Cover，确保图片覆盖整个容器
+
 
       // 添加背景蒙版渐变层，增强文字可读性
       Row() {
         Blank()
       }
       .width('100%')
-      .height(90)
+      .height(300)
       .position({ x: 0, y: 0 })
       .linearGradient({
         angle: 180,
@@ -67,6 +69,6 @@ export struct PyqToolbar {
       .alignItems(VerticalAlign.Center) // 改为水平居中对齐
       .position({ right: 24, bottom: -1 }) // 头像上移，保留更多封面空间
     }
-    .height(200)
+    .height(300)
   }
 }

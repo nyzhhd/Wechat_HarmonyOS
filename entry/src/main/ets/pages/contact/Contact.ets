@@ -29,7 +29,7 @@ export default struct Contact {
     {
       title: 'B',
       contactList: [
-        { name: "宝贝", head: $r("app.media.ic_user_head2") },
+        { name: "百世", head: $r("app.media.ic_user_head2") },
         { name: "博士伦", head: $r("app.media.ic_user_head3") },
         { name: "白雪公主", head: $r("app.media.ic_user_head6") }
       ]

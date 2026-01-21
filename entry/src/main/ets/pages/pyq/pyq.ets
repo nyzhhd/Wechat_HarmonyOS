@@ -15,20 +15,20 @@ struct Pyq {
   build() {
     Column() {
       // 0. 返回按钮 - 添加在顶部
-      Row() {
-        Image($r('app.media.ic_back_black'))
-          .width(24)
-          .height(24)
-          .margin({ left: 16, top: 12 })
-          .onClick(() => {
-            // 返回上一页
-            router.back()
-          })
-        Blank()
-      }
-      .width('100%')
-      .height(48)
-      .alignItems(VerticalAlign.Center)
+      // Row() {
+      //   Image($r('app.media.ic_back_black'))
+      //     .width(24)
+      //     .height(24)
+      //     .margin({ left: 16, top: 12 })
+      //     .onClick(() => {
+      //       // 返回上一页
+      //       router.back()
+      //     })
+      //   Blank()
+      // }
+      // .width('100%')
+      // .height(48)
+      // .alignItems(VerticalAlign.Center)
 
       // 1. 顶部封面
       PyqToolbar({

@@ -5,6 +5,8 @@
     "pages/chat/ChatPage",
     "pages/qrcode/MyQrCodePage",
     "pages/HardwareIndexPage",
-    "pages/pyq/pyq"
+    "pages/pyq/pyq",
+    "pages/scan/scan",
+    "pages/listen/listen"
   ]
 }

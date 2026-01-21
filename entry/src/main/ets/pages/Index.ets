@@ -11,7 +11,7 @@ struct Index {
   private tabController: TabsController = new TabsController()
   private tabTitles: string[] = ["微信", "通信录", "发现", "我"]
   private tabTextColors: string[] = ["#040404", "#57be6a"]
-  private tabTipCounts: number[] = [5, 0, 8, 0]
+  private tabTipCounts: number[] = [98, 0, 3, 0]
 
   build() {
     Column() {

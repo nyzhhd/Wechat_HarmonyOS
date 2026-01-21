@@ -25,6 +25,9 @@ export default struct Discovery {
       ListMenuItem({ title: "扫一扫",
         iconSrc: $r('app.media.ic_scan') })
         .onClick(() => {
+          router.pushUrl({
+            url: 'pages/scan/scan'
+          })
         })
 
       Divider()
@@ -36,6 +39,10 @@ export default struct Discovery {
       ListMenuItem({ title: "听一听",
         iconSrc: $r('app.media.ic_listen')
       })
+        .onClick(() => {
+        router.pushUrl({
+          url: 'pages/listen/listen'
+        })})
 
       Divider()
         .vertical(false)

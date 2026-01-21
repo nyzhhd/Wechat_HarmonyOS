@@ -144,7 +144,11 @@ export default struct SearchPage {
           .fontColor("#5f6c8a")
           .fontSize(17)
           .fontWeight(500)
-          .onClick(unDevTip)
+          .onClick(() => {
+            router.pushUrl({
+              url: 'pages/pyq/pyq'
+            })}
+          )
           .textAlign(TextAlign.Center)
 
         Text("公众号")
