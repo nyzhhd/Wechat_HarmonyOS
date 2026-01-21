@@ -1,5 +1,6 @@
 import ListMenuItem from '../../component/ListMenuItem'
 import WechatToolbar from '../../component/WechatToolbar'
+import { router } from '@kit.ArkUI'
 
 @Preview
 @Component
@@ -9,6 +10,11 @@ export default struct Discovery {
       WechatToolbar({ title: "发现" })
 
       ListMenuItem({ title: "朋友圈", iconSrc: $r('app.media.ic_moment') })
+        .onClick(() => {
+          router.pushUrl({
+            url: 'pages/pyq/pyq'
+          })
+        })
 
       Divider()
         .vertical(false)

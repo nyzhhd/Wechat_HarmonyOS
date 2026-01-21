@@ -60,7 +60,7 @@ export default struct Contact {
     {
       title: 'Z',
       contactList: [
-        { name: "猪八戒", head: $r("app.media.ic_user_head3") },
+        { name: "朱豪杰", head: $r("app.media.ic_user_head3") },
         { name: "张宇恒", head: $r("app.media.ic_user_head4") },
         { name: "周大年", head: $r("app.media.ic_user_head5") }
       ]

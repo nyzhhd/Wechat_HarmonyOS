@@ -104,7 +104,11 @@ export default struct Mine {
         title: "朋友圈",
         iconSrc: $r('app.media.ic_moment_pic')
       })
-        .onClick(unDevTip)
+        .onClick(() => {
+          router.pushUrl({
+            url: 'pages/pyq/pyq'
+          })}
+          )
       Divider()
         .vertical(false)
         .color("#f3f3f3")
