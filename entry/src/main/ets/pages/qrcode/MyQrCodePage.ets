@@ -17,12 +17,12 @@ struct MyQrCodePage {
           .borderRadius(6)
 
         Column() {
-          Text("亚瑟王")
+          Text("nyzhhd")
             .fontColor(Color.Black)
             .fontSize(19)
             .fontWeight(500)
 
-          Text("上海 浦东")
+          Text("湖北 武汉")
             .fontColor(Color.Grey)
             .fontSize(15)
             .margin({ top: 10 })

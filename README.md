@@ -18,7 +18,7 @@
 ![demo1.jpg](art%2Fdemo1.jpg)
 
 #### 通讯录Tab
-![demo2.jpg](art%2Fdemo2.jpg)
+![demo2.jpg](./art/demo2.jpg)
 
 #### 发现Tab
 ![demo3.jpg](art%2Fdemo3.jpg)

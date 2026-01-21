@@ -28,12 +28,12 @@ export default struct Mine {
           })
 
         Column() {
-          Text("亚瑟王")
+          Text("nyzhhd")
             .fontColor(Color.Black)
             .fontSize(26)
             .fontWeight(700)
 
-          Text("微信号：wx_023021")
+          Text("微信号：wx_nyzhhd")
             .fontColor(Color.Grey)
             .fontSize(16)
             .margin({ top: 15 })
